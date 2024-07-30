@@ -34,7 +34,7 @@ exports.lambdaHandler = async (event, context) => {
         response = {
           statusCode: 200,
           body: JSON.stringify({
-            message: "hello world asm-app today is 30 July 2024",
+            message: "hello world asm-app today is 30 July 2024v",
             // location: ret.data.trim()
           }),
         };
